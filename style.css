@@ -20,43 +20,17 @@ h1{
 }
 
 
-/* Comentario de prueba */
-
-/* selector { 
-    propiedad: valor;
-} */
-
-/* Selector de etiqueta */
-
-/* h1{
-    color: red;
-} */
-
-/* Selector de clase */
-
-
 /* HEADER GLOBAL */
 .imgLogo{
     width: 100%;
 }
-.navegacion ol li a {
-    color:white
+
+.navbar-collapse{
+    flex-grow: initial;
 }
-.olNav{
-    width: fit-content;
-    margin: 0 auto;
-}
-.liNav{
-    margin: 16px;
-    display: inline-block;  
-}
-.boton
-{
-    width: fit-content;
-    border: solid 2px white;
-    border-radius: 5px;
-    text-decoration: none;
-    padding: 0 8px;
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
 }
 
 /* FIN HEADER */
@@ -84,18 +58,6 @@ footer{
 
 /* FIN FOOTER */
 
-/* HTML DEL INDEX */
-
-/* /* /* .mainIndex{ */
-/*  display: grid;
- width: 80%;
- margin: 0 auto; */
-
-/*  grid-template-columns: 500px 500px 500px; */
-/*  grid-template-rows: 500px 500px 500px; */
-/*  justify-content: center; */
-/* } */ 
-
 .textoMain{
     width: 80%;
     margin: 0% auto;
@@ -104,7 +66,6 @@ footer{
  /*    background-color: bisque; */
     text-align: center;
     display: grid;
-    grid-template-rows: 50% auto;
     justify-content: center;
 /*     grid-template-columns: 50% auto */
     
@@ -168,45 +129,21 @@ footer{
 text-align: center;
 }
 
-
-.gridGaleria{
-    width: 100%;
-    display: grid;
-    margin-top: 10px;
-    grid-template-columns:repeat(2, 1fr);
-    grid-template-rows: auto auto auto;
-    justify-content: center;
-    text-align: center;
-/*     border: solid 2px black; */
-/*     gap: 20px; */
-}
-
-.gridGaleria div h2{
-    margin-top: 50px;
-}
-
-.gridGaleria div p{
-    align-self: center;
-}
-
-.divTextos{
-    display: flex;
-    flex-direction: column;
-    justify-content:center;
-    font-size:x-large;
-    margin: 0 40px;
-}
-
-
-
 .imgGaleria{
     width: 250px;
     height: 350px;
     margin-left: 100px;
     border-radius: 6px;
-
 }
 
+.divTextoGaleria{
+    margin-top: 70px;
+    text-align: center; 
+}
+
+.articuloDelMedio{
+    margin: 40px;
+}
 
 /* FIN HTML GALERIA */
 
@@ -316,31 +253,6 @@ text-align: center;
 
 /* FIN MEDIA CONTACTO */
 
-/* MEDIA GALERIA */
-
-@media (max-width: 613px){
-    .gridGaleria{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-
-    }
-}
-
-
-@media (max-width: 613px){
-
-.imgGaleria{
-    width: 200px;
-    height: 300px;
-    border-radius: 10px;
-    margin-left: 20px;
-    margin-top:20px;
-    }
-}
-
-
-/* FIN MEDIA QUERY GALERIA */
 
 /* MEDIA QUERY QUIENES SOMOS */
 
