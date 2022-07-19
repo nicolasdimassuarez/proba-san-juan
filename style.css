@@ -124,6 +124,12 @@ footer{
 
 /* HTML DE GALERIA  */
 
+.carousel-item{
+
+    margin-top: 40px;
+
+    
+}
 
 .h1Galeria {
 text-align: center;
@@ -133,7 +139,7 @@ text-align: center;
     width: 250px;
     height: 350px;
     margin-left: 100px;
-    border-radius: 6px;
+    border-radius: 15px;
 }
 
 .divTextoGaleria{
@@ -179,7 +185,7 @@ text-align: center;
 .footerUbicacion{
     position: relative;
     top: 200px;
-    margin: 20px 0px;
+    margin: 0px 0px;
 }
 
 .lineas{
