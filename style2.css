@@ -1,4 +1,3 @@
-@import "../scss/contacto";
 /* font-family: 'Raleway', sans-serif; */
 
 *{
@@ -11,7 +10,7 @@ html{
 }
 
 
-body,.LALALALALA{
+body{
     background-color: darkred;
 }
 

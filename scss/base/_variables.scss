@@ -1,3 +1,16 @@
 $colores: (
     "background-paginas":darkred
-)
+);
+%flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@mixin a1 ($a){
+    display:$a;
+}
+
+/* FUNCTION "NOMBRE" (PARAMETRO1,PARAMETRO2){
+    SENTENCIA1;
+    SENTENCA2;
+} */
