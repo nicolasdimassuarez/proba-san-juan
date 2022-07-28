@@ -1,0 +1,3 @@
+Agregue keywords, descriptions (el mismo en cada uno, y luego fui agregando cosas y modificando) y aplique SASS.
+
+No tiene grandes modificaciones con SASS, ya que al tener el 90% de la pagina ya realizada me resulto un poco tedioso, de todas formas logré comprenderlo al 100% y aplicarlo.
