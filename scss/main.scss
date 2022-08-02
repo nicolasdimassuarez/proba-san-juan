@@ -40,8 +40,6 @@ h1{
 
 main{
     color:white;
-/*     display: inline-flex; */
-/*     align-items: center; */
 }
 
 /* FIN MAIN */
@@ -62,13 +60,10 @@ footer{
 .textoMain{
     width: 80%;
     margin: 0% auto;
-/*     border: 2px solid black; */
     color: white;
- /*    background-color: bisque; */
     text-align: center;
     display: grid;
     justify-content: center;
-/*     grid-template-columns: 50% auto */
     
 }
 
@@ -77,9 +72,6 @@ footer{
     height: 600px;
     margin: 20px 50px; 
 }
-/*     border: solid 4px black; 
-    border-radius: 10px;
-} */
 
 .tituloIndex{
     color: white;
@@ -88,42 +80,6 @@ footer{
 .botonQuienesSomosIndex{
     color: white;
 }
-
-/* HTML DE CONTACTO */
-/* .mainContacto{
-
-    width: 100%;
-    display: inline-block;
-    text-align: center;
-}
-.noticias{
-    margin: 20px;
-}
-
-.divContactoSubmit{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-}
-.input{
-    width: 900px;
-    height: 400px;
-    margin-bottom: 10px;
-
-}
-
-
-.enviar{
-    width: 100px;
-    height: 50px;
-    font-size: 20px;
-}
- */
-/* FIN HTML CONTACTO */
-
-/* HTML DE GALERIA  */
 
 .carousel-item{
 

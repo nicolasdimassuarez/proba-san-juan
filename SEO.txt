@@ -1,3 +1,10 @@
 Agregue keywords, descriptions (el mismo en cada uno, y luego fui agregando cosas y modificando) y aplique SASS.
 
 No tiene grandes modificaciones con SASS, ya que al tener el 90% de la pagina ya realizada me resulto un poco tedioso, de todas formas logré comprenderlo al 100% y aplicarlo.
+
+KEYWORDS Y DESCRIPTION APLICADOS:(INDEX.HTML)
+<meta name="keywords" content="vino san juan, vino sanjuanino, san juan, proba san juan, san juan, vino, vinos, cultrua del vino, villas borjas, bodegas san juan">
+<meta name="description" content="Empresa en nacimiento, con el fin de promover y publicitar el vino de la Provincia de San Juan. Distribuidores oficiales de diversas bodegas.">
+
+Como fue dicho anteriormente, en el resto de los html, se agrego lo mismo, modificando muy poco las description. 
+    
