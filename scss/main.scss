@@ -253,3 +253,10 @@ text-align: center;
     }
 }
 /* FIN MEDIA QUERIS UBICACION */
+
+@media (max-width: 1199px){
+    .col-lg-4 .col-lg-4{
+        display: flex;
+        justify-content: center;
+    }   
+}

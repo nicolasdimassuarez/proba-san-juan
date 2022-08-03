@@ -307,3 +307,12 @@ footer {
 /* FIN MEDIA QUERIS UBICACION */
 
 /*# sourceMappingURL=style.css.map */
+
+@media (max-width: 1199px){
+  .col-sm-12 .col-lg-4 .imgGaleria{
+      display: flex;
+      justify-content: center;
+  }   
+}
+
+
