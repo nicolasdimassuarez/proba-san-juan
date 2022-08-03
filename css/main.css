@@ -184,9 +184,9 @@ footer {
   text-align: center;
 }
 
-.articuloDelMedio {
+/* .articuloDelMedio {
   margin: 40px;
-}
+} */
 
 /* FIN HTML GALERIA */
 /* HTML DE QUIENES SOMOS */
@@ -309,10 +309,18 @@ footer {
 /*# sourceMappingURL=style.css.map */
 
 @media (max-width: 1199px){
-  .col-sm-12 .col-lg-4 .imgGaleria{
+    .cotainer .divsImagenes .row{
       display: flex;
       justify-content: center;
+      align-items: center;
+      text-align: center;
   }   
 }
+ 
 
-
+@media (max-width: 1199px){
+    .articuloDelMedio{
+      display: flex;
+      justify-content: center;
+  }
+}
